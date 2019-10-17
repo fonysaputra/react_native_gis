@@ -48,30 +48,10 @@ export default class Tentang extends Component {
               <Text>Nama Pengembang </Text>
             </Left>
             <Body>
-              <Text>: Rio </Text>
-            </Body>
-          </CardItem>
-          <CardItem>
-            <Left>
-              <Text>Jurusan </Text>
-            </Left>
-            <Body>
-              <Text>: S1 Informatika </Text>
+              <Text>: Fn Project </Text>
             </Body>
           </CardItem>
         </Card>
-        <Content>
-          <Card style={{ alignItems: "center", flex: 1 }}>
-            <CardItem>
-              <Text style={{ color: "#1a08a8", fontSize: 20 }}>
-                Universitas Teknokrat Indonesia
-              </Text>
-            </CardItem>
-            <CardItem>
-              <Image source={require("../../assets/tekno.png")} />
-            </CardItem>
-          </Card>
-        </Content>
       </View>
     );
   }
